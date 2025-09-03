@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "prod=dev node build.js",
+    "build": "node build.js"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.9"
+  }
+}

@@ -1,0 +1,114 @@
+[
+  {
+    "title": "Welcome to The Research",
+    "level": 1,
+    "contents": [
+      "Thank you for agreeing to participate in the speed-typing challenge",
+      "between a cat and a human.\n",
+      "Press the letter shown on the screen; regular letters earn 1 point.",
+      "Some letters have unique abilities and are triggered only once. You",
+      "earn points for each correct letter.\n",
+      "Some letters have abilities:",
+      "\uD83D\uDCA3: You lose 1 point.",
+      "\uD83D\uDE80: You don’t gain a point, but your opponent loses 1 point.",
+      "\u2744 : You get 1 point, but you freeze for 2 seconds."
+    ]
+  },
+  {
+    "title": "Great Results!",
+    "level": 2,
+    "contents": [
+      "See? I told you it’d be easy.\n",
+      "When you complete level 10, the research will be finished.",
+      "Each level consists of 5 rounds and the number of letters increases",
+      "with each level.\n",
+      "To find out which letter the opponent is on, look below the letter.",
+      "If the ability in the letter has not disappeared, your opponent has",
+      "pressed the wrong key on the keyboard.\n",
+      "Maybe the cat did it on purpose; it's a good idea to",
+      "press the wrong key when it sees a letter with a bomb on the screen."
+    ]
+  },
+  {
+    "title": "Antics",
+    "level": 3,
+    "contents": [
+      "Cat Appears to Be Having Trouble Finding the Letters.",
+      "But it seems to be thinking faster and pressing the right keys",
+      "more and more.\n",
+      "If you finish the round the fastest and get at least half of the letters",
+      "correct, you get extra points equal to half of the letters on the screen."
+    ]
+  },
+  {
+    "title": "Furrowed Brows",
+    "level": 4,
+    "contents": [
+      "The cat looks focused — or is it devising a strategy?",
+      "We apologize for the words thrown by the cat.\n",
+      "How do you like our technology that shows a cat's thinking time?",
+      "When the thinking time is over, it tries to press the key,",
+      "but there is no guarantee that it is the right key.\n",
+      "(We had chosen a black cat to bring bad luck, but I guess the rumor is",
+      "false.)"
+    ]
+  },
+  {
+    "title": "Indigestion",
+    "level": 5,
+    "contents": [
+      "The cat just climbed onto the keyboard... Could this work?",
+      "Was this its secret plan?"
+    ]
+  },
+  {
+    "title": "Purrfect",
+    "level": 6,
+    "contents": [
+      "The cat seems to be getting the hang of this.\n",
+      "The cat's typing speed and accuracy keep increasing.",
+      "Score as many points as you can before the cat gets stronger.\n",
+      "Good luck!"
+    ]
+  },
+  {
+    "title": "You Got Very Close",
+    "level": 7,
+    "contents": [
+      "Most of the level is done. There's no time to rest.",
+      "Can you grasp how important this research is?"
+    ]
+  },
+  {
+    "title": "You Can't Catch This Cat",
+    "level": 8,
+    "contents": [
+      "The cat's out of control! It's starting to emit a noticeable heat",
+      "that scares us. Anyway, you must finish this."
+    ]
+  },
+  {
+    "title": "Nap? Not Today!",
+    "level": 9,
+    "contents": [
+      "The cat isn't just breaking records in typing speed and accuracy",
+      "it's also setting records for not taking naps over a long time."
+    ]
+  },
+  {
+    "title": "The Final",
+    "level": 10,
+    "contents": [
+      "Use all your strength — this is the final stage.\n",
+      "You’ll see your progress after you pass this level."
+    ]
+  },
+  {
+    "title": "Results",
+    "level": 11,
+    "contents": [
+      "Thank you for your participation,",
+      "The research results are quite usele... I mean, useful."
+    ]
+  }
+]
