@@ -59,7 +59,7 @@ export default class Dialog {
         msg.push(`Number of keys pressed correctly: ${correctKeyPressCnt}`);
         msg.push(`Number of keys pressed incorrectly: ${wrongKeyPressCnt}\n`);
 
-        msg.push("Don't forget to share your score:" +
+        msg.push("Don't forget to share your score: " +
             `${playerStore.score} (${correctKeyPressCnt}/${wrongKeyPressCnt}/${keyPressCnt})`);
 
         return msg;

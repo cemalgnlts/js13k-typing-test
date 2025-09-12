@@ -45,16 +45,21 @@ export default class Cat extends BaseCharacter {
     levelUp(roundData) {
         this.level++;
 
-        let isCatWinTwice = false;
-        const catIdx = roundData.indexOf("cat");
-        isCatWinTwice = roundData.indexOf("cat", catIdx + 1) !== -1;
+        // cat difficulty parameters: as the level increases, it predicts faster and more accurately
+        this._predictTimeSec = Math.max(0.5, 1 - this.level * 0.08); // min 0.5 sn
+        this._predictChance = Math.min(0.95, 0.5 + this.level * 0.07); // max %95
 
-        if (isCatWinTwice) { // cat win 2 times.
-            this._predictTimeSec += 0.1;
-            this._predictChance -= 0.1;
-        } else if (catIdx === -1) { // player win 3 times.
-            this._predictTimeSec -= 0.15;
-            this._predictChance += 0.15;
+        const playerWins = roundData.filter(r => r === "player").length;
+        const catWins = roundData.filter(r => r === "cat").length;
+
+        // if player wins all last 3 rounds, make it harder
+        if (playerWins === 3) {
+            this._predictTimeSec = Math.max(0.3, this._predictTimeSec - 0.1);
+            this._predictChance = Math.min(1, this._predictChance + 0.1);
+        } else if (catWins >= 2) {
+            // if cat wins 2 or 3 rounds, make it easy.
+            this._predictTimeSec = Math.min(2, this._predictTimeSec + 0.1);
+            this._predictChance = Math.max(0.3, this._predictChance - 0.1);
         }
     }
 
