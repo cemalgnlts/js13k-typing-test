@@ -10,7 +10,7 @@ const sounds = {
     touch: [8, , 150, .01, , .03, 1, 4.2, , , , , , .5, , , , .93, , .1]
 };
 
-let _isGameMusicMuted = true;
+let _isGameMusicMuted = false;
 
 for (const [key, soundData] of Object.entries(sounds)) {
     sounds[key] = zzfxG(...soundData);
